@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  /* background-color: color.backColor" */
+  background-color: #fafafa;
+}
+
+.list {
+  /* background-color: #c084fc; */
+  text-align: center;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+#textarea {
+  margin-top: 10px;
+  width: 60%;
+  border-radius: 5px;
+  height: 10rem;
+  background-color: #f3e8ff;
+  border: 1px solid transparent;
+  box-shadow: 20px 22px 8px -4px rgba(0, 0, 0, 0.75);
+}
+.inputBox {
+  /* width: 50%; */
+  text-align: center;
+}
+#myForm {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  margin-top: 35px;
+  padding-bottom: 10px;
+  background-color: #c084fc;
+  border-radius: 5px;
+  /* box-shadow: 4px 2px 2px solid blue; */
+  box-shadow: 26px 28px 8px -4px rgba(0, 0, 0, 0.75);
+}
+.input {
+  width: 60%;
+  border-radius: 5px;
+  background-color: #f3e8ff;
+}
+.green {
+  margin-bottom: 35px;
+}
+
+.icon {
+  color: red;
+  /* background-color: aquamarine; */
+}
+.delete {
+  background-color: transparent;
+  border: none;
+}
+.checkBox input {
+  width: 25px;
+  height: 25px;
+}
+.checkBox {
+  margin: 20px;
+}
+.heading {
+  color: white;
+}
+.hoverDiv :hover {
+  border: 1px solid red;
+  /* box-shadow: 26px 28px 8px -4px rgba(0, 0, 0, 0.75); */
+}
